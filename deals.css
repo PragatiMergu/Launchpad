@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.headerbar{
+    width: 100%;
+    height: 80px;
+    background:#C6915D;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: start;
+    padding: 30px;
+    
+}
+.header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.header img{
+    width: 100px;
+}
+.header input{
+    background: white;
+    width: 95%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+.nav{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    gap: 15%;
+    color: #8B3537;
+    align-items: center;
+    padding: 20px;
+
+}
+.nav i{
+    font-size: 25px;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    background: url('https://content.jdmagicbox.com/comp/tirunelveli/h9/0462px462.x462.000117849266.m1h9/catalogue/tanishq-junction-tirunelveli-jewellery-showrooms-pw58ygyzvq.jpg?clr=') no-repeat;
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .details h1{
+    font-size: 20px;
+}
+
+.container .details{
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    background: black;
+    color: white;
+    bottom: -15%;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0, 0, 0.7);
+}
+.container .details .card{
+    width: 25%;
+    height: 100%;
+    background: #C6915D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: 0px 0px 5px white;
+}
+.details .card h2{
+    font-size: 25px;
+}
